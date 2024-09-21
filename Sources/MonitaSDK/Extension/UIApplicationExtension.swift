@@ -19,7 +19,7 @@ public extension UIApplication {
             return nil
         }
     }
-    public class func showAlert(title: String = "", message: String) {
+    class func showAlert(title: String = "", message: String) {
         let ac = UIAlertController(title: title, message: message, preferredStyle: .alert)
         ac.addAction(UIAlertAction(title: "OK", style: .default))
         DispatchQueue.main.async {

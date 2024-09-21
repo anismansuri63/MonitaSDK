@@ -25,7 +25,7 @@ class RequestManager {
 
         } catch {
             print(error)
-            //UIApplication.showAlert(title: "Configuration Parsing Error, Loading local",message: error.localizedDescription)
+            UIApplication.showAlert(title: "Configuration Parsing Error, Loading local",message: error.localizedDescription)
         }
         return nil
     }
