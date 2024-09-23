@@ -1,5 +1,4 @@
-MonitaSDK Integration Guide
-
+# MonitaSDK Integration Guide
 This document outlines the steps required to integrate MonitaSDK into your iOS application.
 
 Requirements
@@ -53,6 +52,7 @@ swift
     return true
     
     }
+    
 Step 4: Run the App
 Build and run your app.
 The MonitaSDK should be successfully integrated, and it will initialize when the app is launched.
