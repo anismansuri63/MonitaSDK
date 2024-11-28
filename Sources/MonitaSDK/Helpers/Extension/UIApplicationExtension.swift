@@ -2,7 +2,7 @@
 //  UIApplicationExtension.swift
 //  AppGlobaliOS
 //
-//  Created by Anis Mansuri on 14/09/24.
+//  Created by Coderon 14/09/24.
 //
 
 import UIKit

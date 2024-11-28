@@ -2,8 +2,6 @@
 //  SlackHookSniffableRequestHandler.swift
 //  NetworkInterceptor
 //
-//  Created by steven lee on 25/4/19.
-//  Copyright © 2019 Kenneth Poon. All rights reserved.
 //
 
 import Foundation

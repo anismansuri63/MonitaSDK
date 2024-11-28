@@ -2,8 +2,7 @@
 //  AnyHttpRequestEvaluator.swift
 //  NetworkInterceptor
 //
-//  Created by Kenneth Poon on 20/8/18.
-//  Copyright © 2018 Kenneth Poon. All rights reserved.
+// 
 //
 
 import Foundation
