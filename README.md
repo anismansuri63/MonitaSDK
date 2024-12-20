@@ -30,7 +30,7 @@ In the search box please put ```https://github.com/rnadigital/monita-ios-sdk.git
 
 Choose the `Version` and leave the default selection for the latest version or customize if needed.
 
-<img src="https://user-images.githubusercontent.com/47759/125630747-06b6df35-4cf0-4312-921e-5ddcdf054d0c.png" width="300" />
+<img src="https://ibb.co/wpKzr3C" width="300" />
 
 Click finish and you will see the library added to the Swift Package Dependencies section.
 
