@@ -35,7 +35,6 @@ Choose the `Version` and leave the default selection for the latest version or c
 Click finish and you will see the library added to the Swift Package Dependencies section.
 
 <img src="https://user-images.githubusercontent.com/47759/125632336-631f195c-4fbb-462a-8255-5e2c67f3f6e7.png" width="300" />
-<img src="https://user-images.githubusercontent.com/47759/125632486-18754bb0-8476-4784-a06e-e66b83b7217f.png" width="300" />
 
 
 Add MonitaSDKToken to Info.plist
