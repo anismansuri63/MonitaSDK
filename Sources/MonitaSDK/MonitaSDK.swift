@@ -33,7 +33,7 @@ public class MonitaSDK: NSObject {
     var enableLogger: Bool = false
     var cid: String = ""
     // Call this method in AppDelegate's didFinishLaunchingWithOptions
-    public static func configure(fetchLocally: Bool = false, enableLogger: Bool, batchSize: Int, cid: String, appVersion: String) {
+    public static func configure(fetchLocally: Bool = false, enableLogger: Bool, batchSize: Int = 5, cid: String, appVersion: String) {
         MonitaSDK.shared.fetchLocally = fetchLocally
         guard let token = Bundle.main.infoDictionary?["MonitaSDKToken"] as? String else {
             UIApplication.showAlert(message: "Token not available in plist file")
