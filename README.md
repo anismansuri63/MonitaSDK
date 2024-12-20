@@ -24,7 +24,7 @@ If you are asked to choose the project, please choose the one you want to add Mo
 
 <img src="https://user-images.githubusercontent.com/47759/125629839-f7090646-503e-4cf8-b669-5bfe0f442937.png" width="300" />
 
-In the search box please put ```https://github.com/trackingplan/trackingplan-ios``` and click next.
+In the search box please put ```https://github.com/rnadigital/monita-ios-sdk.git``` and click next.
 
 <img src="https://user-images.githubusercontent.com/47759/125630384-b4544f77-202f-4567-87bb-c3582535099e.png" width="300" />
 
