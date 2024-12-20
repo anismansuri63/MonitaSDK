@@ -55,7 +55,7 @@ import MonitaSDK
 func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
     // Override point for customization after application launch.
 
-    // Initialize Trackingplan SDK
+    // Initialize Monita SDK
     MonitaSDK.configure(enableLogger: true | false, batchSize: 5, cid: "cid value", appVersion: appVersion)
 
     return true
