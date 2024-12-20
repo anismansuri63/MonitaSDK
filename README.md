@@ -26,9 +26,7 @@ If you are asked to choose the project, please choose the one you want to add Mo
 
 In the search box please put ```https://github.com/rnadigital/monita-ios-sdk.git``` and click next.
 
-<img src="https://user-images.githubusercontent.com/47759/125630384-b4544f77-202f-4567-87bb-c3582535099e.png" width="300" />
-
-Choose the `Version` and leave the default selection for the latest version or customize if needed.
+Select branch enter the `master`.
 
 <img src="https://i.ibb.co/TvpmLGK/git-url.png" width="300" />
 
