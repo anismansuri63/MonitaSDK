@@ -1,11 +1,11 @@
 # Monita iOS SDK
 
-With Monita for iOS you can make sure that your tracking is going as you planned without changing your current analytics stack or code.
+With Monita for iOS, you can ensure that your tracking is going as planned without changing your current analytics stack or code.
 
 Monita will monitor traffic between your app and data destinations and automatically detect any changes in your analytics implementation and warn you about inconsistencies like hit drops, missing properties, rogue events, and more.
 
 
-Monita is currently available for Web, iOS and Android. More clients will come soon.
+Monita is currently available for iOS and Android.
 
 Please request your ```TrackingplanId``` at <a href='https://www.trackingplan.com'>trackingplan.com</a> or write us directly team@trackingplan.com.
 
@@ -26,7 +26,7 @@ If you are asked to choose the project, please choose the one you want to add Mo
 
 In the search box please put ```https://github.com/rnadigital/monita-ios-sdk.git``` and click next.
 
-Select branch enter the `master`.
+Select `branch` option enter the name `master`.
 
 <img src="https://i.ibb.co/TvpmLGK/git-url.png" width="300" />
 
