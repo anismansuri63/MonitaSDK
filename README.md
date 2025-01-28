@@ -1,11 +1,11 @@
 # Monita iOS SDK
 
-With Monita for iOS you can make sure that your tracking is going as you planned without changing your current analytics stack or code.
+With Monita for iOS, you can ensure that your tracking is going as planned without changing your current analytics stack or code.
 
 Monita will monitor traffic between your app and data destinations and automatically detect any changes in your analytics implementation and warn you about inconsistencies like hit drops, missing properties, rogue events, and more.
 
 
-Monita is currently available for Web, iOS and Android. More clients will come soon.
+Monita is currently available for iOS and Android.
 
 Please request your ```TrackingplanId``` at <a href='https://www.trackingplan.com'>trackingplan.com</a> or write us directly team@trackingplan.com.
 
@@ -24,17 +24,15 @@ If you are asked to choose the project, please choose the one you want to add Mo
 
 <img src="https://user-images.githubusercontent.com/47759/125629839-f7090646-503e-4cf8-b669-5bfe0f442937.png" width="300" />
 
-In the search box please put ```https://github.com/trackingplan/trackingplan-ios``` and click next.
+In the search box please put ```https://github.com/rnadigital/monita-ios-sdk.git``` and click next.
 
-<img src="https://user-images.githubusercontent.com/47759/125630384-b4544f77-202f-4567-87bb-c3582535099e.png" width="300" />
+Select `branch` option enter the name `master`.
 
-Choose the `Version` and leave the default selection for the latest version or customize if needed.
-
-<img src="https://user-images.githubusercontent.com/47759/125630747-06b6df35-4cf0-4312-921e-5ddcdf054d0c.png" width="300" />
+<img src="https://i.ibb.co/TvpmLGK/git-url.png" width="300" />
 
 Click finish and you will see the library added to the Swift Package Dependencies section.
 
-<img src="https://user-images.githubusercontent.com/47759/125632336-631f195c-4fbb-462a-8255-5e2c67f3f6e7.png" width="300" />
+<img src="https://i.ibb.co/th9Rx3V/git-add.png" width="300" />
 
 
 Add MonitaSDKToken to Info.plist
