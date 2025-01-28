@@ -12,6 +12,10 @@ In Xcode, go to File -> Swift Packages -> Add Package Dependency...:
 
 In the search box put ```https://github.com/rnadigital/monita-ios-sdk.git``` and click next.
 
+Select `branch` option enter the name `master`.
+
+Click finish and you will see the library added to the Swift Package Dependencies section.
+
 ### Step 2: Add the token
 
 Add MonitaSDKToken to Info.plist
