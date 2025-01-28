@@ -8,7 +8,7 @@ To integrate Monita SDK into your iOS project, follow the steps below.
 
 ### Step 1: Add Package Dependency...
 
-In Xcode, go to File -> Swift Packages -> Add Package Dependency...:
+```In Xcode, go to File -> Swift Packages -> Add Package Dependency```
 
 In the search box put ```https://github.com/rnadigital/monita-ios-sdk.git``` and click next.
 
