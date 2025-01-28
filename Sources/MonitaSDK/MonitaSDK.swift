@@ -31,18 +31,26 @@ public class MonitaSDK: NSObject {
     var fetchLocally = false
     var batchSize: Int = 5
     var enableLogger: Bool = false
-    var cid: String = ""
+    var customerId: String = ""
+    var consentString: String  = ""
+    var sessionId: String = ""
+    var appVersion: String = ""
     // Call this method in AppDelegate's didFinishLaunchingWithOptions
-    public static func configure(fetchLocally: Bool = false, enableLogger: Bool, batchSize: Int = 5, cid: String, appVersion: String) {
+    public static func configure(fetchLocally: Bool = false, enableLogger: Bool, batchSize: Int = 5, customerId: String, consentString: String, sessionId: String, appVersion: String) {
         MonitaSDK.shared.fetchLocally = fetchLocally
         guard let token = Bundle.main.infoDictionary?["MonitaSDKToken"] as? String else {
             UIApplication.showAlert(message: "Token not available in plist file")
             return
         }
         MonitaSDK.shared.token = token
-        MonitaSDK.shared.batchSize = batchSize
-        MonitaSDK.shared.cid = cid
         MonitaSDK.shared.enableLogger = enableLogger
+        MonitaSDK.shared.batchSize = batchSize
+        MonitaSDK.shared.customerId = customerId
+        MonitaSDK.shared.consentString = consentString
+        MonitaSDK.shared.sessionId = sessionId
+        
+        MonitaSDK.shared.appVersion = appVersion
+        
         // Register the URL Protocol
         UserDefaults.standard.setVal(value: [], key: .requestListCall)
         UserDefaults.standard.setVal(value: [], key: .requestList)

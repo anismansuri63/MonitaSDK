@@ -292,9 +292,9 @@ extension RequestManager {
             "env": "production",
             "et": "1",
             "vid": "1",
-            "cn": "",
-            "sid": "",
-            "cid": MonitaSDK.shared.cid,
+            "cn": MonitaSDK.shared.consentString,
+            "sid": MonitaSDK.shared.sessionId,
+            "cid": MonitaSDK.shared.customerId,
             "ev": ""
         ]
         savePendingServerReqest(request: payload)
